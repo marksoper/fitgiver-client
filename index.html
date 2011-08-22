@@ -21,7 +21,7 @@
       //document.write('<link rel="shortcut icon" href="' + ROOT + '/img/favicon.ico" \/>');
       
       // style includes
-      document.write('<link rel="stylesheet" href="' + ROOT + '/css/base.css" \/>');    
+      //document.write('<link rel="stylesheet" href="' + ROOT + '/css/base.css" \/>');    
 
       // js includes
       document.write('<script src="' + ROOT + '/include/underscore.js"><\/script>');    
@@ -30,10 +30,43 @@
     </script>
 
     <style>
-      
-      header {
-        text-align:center;
-      }
+
+body {
+  background-image: url("http://s3.amazonaws.com/rally_img/rlbg.png");
+  background-repeat: repeat-x;
+  background-color:#d4d7de;
+  font:18px Helvetica,Arial,Sans-serif;
+  color:#334455;
+  padding:0px;
+  margin:0px auto;
+}
+ 
+a img {
+    border:none;
+}
+a {
+  color:#001199;text-decoration:none;
+}
+a:hover {
+  color:#4444ee;
+}
+ul {
+  margin:0px;
+  padding:0px;
+  list-style:none outside none;
+}
+h1,h2,h3 {
+  padding:0px;margin:0px 0px 0px 0px;
+}
+div,form,input,textarea,img {
+  padding:0px; margin:0px;
+}
+div,section,header,footer {
+  overflow:hidden;
+}
+header {
+  text-align:center;
+}
       
     </style>
     
@@ -47,7 +80,7 @@
 
   <body>
 
-    <header>
+    <header class="ui-bar-a" >
       <h1>
 	Fitgiver
       </h1>
