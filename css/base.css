@@ -1,0 +1,35 @@
+
+body {
+  background-image: url("http://s3.amazonaws.com/rally_img/rlbg.png");
+  background-repeat: repeat-x;
+  background-color:#d4d7de;
+  font:12px/18px "Lucida Grande","Lucida Sans Unicode",Arial,Sans-serif;
+  color:#334455;
+  line-height:15px;
+  padding:0px;
+  margin:0px auto;
+}
+ 
+a img {
+    border:none;
+}
+a {
+  color:#001199;text-decoration:none;
+}
+a:hover {
+  color:#4444ee;
+}
+ul {
+  margin:0px;
+  padding:0px;
+  list-style:none outside none;
+}
+h1,h2,h3 {
+  padding:0px;margin:0px 0px 0px 0px;
+}
+div,form,input,textarea,img {
+  padding:0px; margin:0px;
+}
+div,section,header,footer {
+  overflow:hidden;
+}
