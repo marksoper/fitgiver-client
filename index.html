@@ -1,12 +1,15 @@
+<!DOCTYPE html>
 
-<html>
+<html lang="en">
+
 
   <head>
+    
+    <meta charset="utf-8" />
 
     <title>
       Fitgiver
     </title>
-
     
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.js"></script>
 
@@ -14,8 +17,11 @@
       // gh-pages makes this necessary
       var ROOT = "/fitgiver";
 
+      // favicon
+      //document.write('<link rel="shortcut icon" href="' + ROOT + '/img/favicon.ico" \/>');
+      
       // style includes
-      document.write('<link type="text/css" rel="stylesheet" href="' + ROOT + '/css/base.css" \/>');    
+      document.write('<link rel="stylesheet" href="' + ROOT + '/css/base.css" \/>');    
 
       // js includes
       document.write('<script src="' + ROOT + '/include/underscore.js"><\/script>');    
@@ -23,16 +29,35 @@
       document.write('<script src="' + ROOT + '/include/backbone.js"><\/script>');
     </script>
 
-
+    <style>
+      
+      header {
+        text-align:center;
+      }
+      
+    </style>
     
   </head>
 
+
+
+
+
+
+
   <body>
 
-    <h1>
-      Fitgiver
-    </h1>
+    <header>
+      <h1>
+	Fitgiver
+      </h1>
+    </header>
+
 
   </body>
+
+
+
+
 
 </html>
