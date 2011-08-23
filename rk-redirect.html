@@ -86,11 +86,13 @@ header {
       </h1>
     </header>
 
-    
-    <script>
-      document.write(window.location.href);
-    </script>
 
+    <section style="text-align:center;width:100%;">
+    <h2>The code we send to the server is:</h2><br><br>
+    <script>
+      document.write(window.location.href).split("?")[1];
+    </script>
+    </section>
 
   </body>
 
